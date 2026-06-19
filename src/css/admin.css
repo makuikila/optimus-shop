@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+   
+}
+
+header{
+    position: fixed;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: inherit;
+    background-color: rgb(255, 255, 255);
+}
+header nav{
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+header a{
+    float: right;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(255, 0, 0);
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+header a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(255, 0, 0);
+}
+header .fa{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.contenu{
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.contenu p{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgb(117, 117, 117);
+    margin: 10px 10px;
+    height: 100px;
+    width: 200px;
+}
+.contenu .vert-bleu{
+    background-color: rgb(61, 178, 255);
+}
+.contenu .rouge{
+    background-color: rgb(248, 61, 61);
+}
+.contenu a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    font-size: 15px;
+}
+.contenu strong{
+    font-size: 30px;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.logo img{
+    float: left;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.logo span{
+    color: rgb(0, 238, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: 0px 0px 50px rgb(212, 212, 212);
+}
+.logo .para{
+    margin-top: 30px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 18px;
+}
+.contenu .trans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 219, 235, 0.151);
+    border: 2px solid rgb(0, 185, 209);
+    font-size: 17px;
+    color: initial;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.aff{
+    position: fixed;
+    color: black;
+    display: block;
+    border-right: 5px solid rgb(0, 185, 209);
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+}
+.profil img{
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+.profil h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.profil p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: -15px;
+    font-size: 17px;
+    color: rgb(112, 112, 112);
+}
+.profil h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.profil ul{
+    list-style: none;
+}

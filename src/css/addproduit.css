@@ -1,0 +1,360 @@
+
+.main{
+    width: inherit;
+    margin-top: 60px;
+}
+.main .profil img{
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: -40px;
+}
+.profil .fa{
+    position: absolute;
+    color: rgb(0, 160, 223);
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px black;
+    margin-left: -70px;
+    margin-top: 80px;
+}
+.profil h3{
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 10px;
+}
+.profil p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 10px;
+    color: rgb(112, 112, 112);
+}
+.gestProduit{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.gestProduit a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    margin-right: 10px;
+    padding: 7px 13px 7px 13px;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(0, 247, 255);
+}
+.gestProduit .btn-danger{
+    border: 3px solid rgb(255, 0, 0);
+}
+.gestProduit .btn-danger .fa{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.main #filtre{
+    text-align: right;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 2px solid rgb(179, 179, 179);
+    width: 700px;
+}
+.main select{
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+}
+.contenu .colo{
+    display: flex;
+    height: auto;
+    width: inherit;
+    flex-flow: row wrap;
+}
+.contenu .colo img{
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    margin: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.contenu{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+footer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    background-color: white;
+}
+footer ul{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 10% 10% 10% 20% 5%;
+    list-style: none;
+    text-align: center;
+}
+footer .fa{
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+    color : rgb(0, 46, 46);
+    transition: 0.25s;
+}
+footer a:hover{
+    text-decoration: none;
+    color : rgb(4, 211, 194);
+    transition: 0.25s;
+}
+.active{
+    color : rgb(4, 211, 194);
+}
+footer span{
+    background-color:  rgb(4, 211, 194);
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 17px;
+    border-bottom-right-radius: 0px;
+    font-weight : bold;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -15px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102);
+}
+footer span:hover{
+    color: black;
+}
+footer nav{
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+footer .logo{
+    display: inline-flex;
+    
+}
+footer img{
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+footer h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+footer .fa:hover{
+    color : rgb(4, 211, 194);
+}
+footer .shop{
+    display: inline-flex;
+    color: rgb(0, 238, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+}
+footer .search input{
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+}
+footer .search button{
+    background-color: rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
+    border-radius: 5px;
+}
+
+.fond img{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    left: 0;
+}
+.ombre{	
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+	background-color: rgba(0, 0, 0, 0.45);
+	width: 102.7%;
+    height: 77vh;
+    color: white;
+    margin-left: -15px;
+}
+
+.ombre h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.ombre span{
+    color: rgb(0, 255, 234);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+}
+.ombre p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: -20px;
+}
+.sec{
+    transition: 0.25s;
+}
+.sec:focus{
+    box-shadow: 0px 0px 15px rgb(0, 255, 234);
+}
+.porto{
+    background-color: white;
+    color : black;
+    height: 420px;
+    width: 350px;
+}
+.prod{
+    width: 100%;
+}
+.prod h3{
+    text-align: center;
+    width: 100%;
+}
+
+.contenu li{
+    list-style: none;
+    font-size: 22px;
+}
+.contenu .fa{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color : rgb(4, 211, 194);
+    text-shadow: 0px 0px 50px rgb(212, 212, 212);
+}
+.contenu a{
+    text-decoration: none;
+    color: black;
+}
+.contenu strong{
+    margin-left: 25px;
+    font-size: 25px;
+    color: rgb(4, 211, 194);
+}
+.stat{
+    width: 100%;
+}
+.stat h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contenu h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.editer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: black;
+}
+.editer fieldset{
+    width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 30px rgb(27, 27, 27);
+    padding: 25px 25px 25px 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+.editer input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.editer button{
+    color: white;
+    background-color: rgba(1, 102, 94, 0.411);
+    border: 2px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    margin-left: 200px;
+}
+.editer button:hover{
+    background-color: rgb(0, 230, 210);
+    text-decoration: none;
+    color: white;
+}
+.editer nav{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+.editer textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.editer .decision{
+    grid-template-columns: 49% 2% 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.editer .decision div{
+    width: 100%;
+}
+.editer .decision select{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+    margin-bottom: 10px;
+}
+.editer #cat{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.editer div label{
+    display: block;
+}
+.editer #tri{
+    width: 50%;
+}
