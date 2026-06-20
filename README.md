@@ -1,29 +1,81 @@
-# Optimus Shop — E-Commerce PHP/MySQL
+# 🛒 Optimus Shop
 
-> Full-stack PHP/MySQL e-commerce platform with product catalog, user authentication, session-based cart, admin panel and Bootstrap responsive interface.
+A full-stack e-commerce platform developed with PHP and MySQL.
 
-**Context:** Web development project — Applied Computer Science, 2021.  
-**Stack:** PHP · MySQL · Bootstrap · HTML5 · CSS3 · JavaScript
+Optimus Shop allows users to:
+- Create an account
+- Publish products for sale
+- Browse products by category
+- Add products to a shopping cart
+- Manage their profile
+- Access an administration dashboard
+
+## Technologies
+
+- PHP
+- MySQL
+- Bootstrap
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
 ## Screenshots
 
-### Home — product catalog
-![Home catalog](assets/home_preview.png)
+### Landing Page
+![Landing Page](docs/screenshots/landing-page.png)
 
-### Product detail
-![Product detail](assets/product_detail.png)
+Page d'accueil présentant la plateforme Optimus Shop et son objectif : permettre aux utilisateurs d'acheter et de vendre leurs propres produits.
 
-### Cart
-![Cart](assets/cart.png)
+---
 
-### Admin dashboard
-![Admin](assets/admin_panel.png)
+### Login Page
+![Login Page](docs/screenshots/login-page.png)
 
-### User profile
-![Profile](assets/user_profile.png)
+Authentification des utilisateurs via email et mot de passe.
 
+---
+
+### Registration Page
+![Registration Page](docs/screenshots/register-page.png)
+
+Création d'un nouveau compte utilisateur.
+
+---
+
+### Product Catalog
+![Product Catalog](docs/screenshots/catalog.png)
+
+Catalogue principal affichant les produits mis en vente par les utilisateurs.
+
+---
+
+### Categories & Search
+![Categories](docs/screenshots/categories.png)
+
+Navigation par catégories (Mode, Itech) et moteur de recherche intégré.
+
+---
+
+### Shopping Cart
+![Shopping Cart](docs/screenshots/cart.png)
+
+Gestion du panier avec calcul automatique du total et validation de la commande.
+
+---
+
+### User Profile
+![User Profile](docs/screenshots/profile.png)
+
+Espace personnel permettant de gérer le profil et les produits publiés.
+
+---
+
+### Admin Dashboard
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+
+Interface d'administration avec statistiques, gestion des utilisateurs et des produits.
 ---
 
 ## Architecture
